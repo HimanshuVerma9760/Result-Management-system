@@ -1,0 +1,34 @@
+.main span {
+  font-size: 20px;
+}
+
+.main p {
+  font-size: 16px;
+  line-height: 2;
+  color: antiquewhite;
+}
+
+.info {
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.info span {
+  color: #86c232;
+  font-size: 20px;
+}
+body {
+  /* background-image: url("ditBackground.png"); */
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  background-image: radial-gradient(rgb(247, 51, 51), rgb(81, 119, 247));
+}
+.adminPannel{
+  background-color: rgb(215, 215, 236);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}

@@ -1,0 +1,43 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.head img {
+  border-radius: 10px;
+}
+nav {
+  display: inline-block;
+  justify-content: right;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+a {
+  text-decoration: none;
+  color: rgb(209, 96, 96);
+}
+main {
+  margin-top: 10%;
+}

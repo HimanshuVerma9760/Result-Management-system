@@ -1,0 +1,28 @@
+body {
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  background-image: radial-gradient(rgb(211, 241, 165), rgb(43, 41, 21));
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100hw;
+  margin-top: 5%;
+}
+.center tbody{
+    background-color: rgb(238, 182, 229);
+    color: rgb(0, 10, 10);
+}
+.center thead{
+    background-color: rgb(133, 245, 59);
+    color: rgb(1, 14, 14);
+}
+.center tbody td{
+    border: 2px solid black;
+}
+.center thead th{
+    border: 2px solid black;
+}
