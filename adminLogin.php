@@ -6,7 +6,7 @@ if (!$conn) {
 } else {
 
     if (isset($_POST['email'])) {
-        if (isset($_POST['pass'])) {
+        if (isset($_POST['pass'])) { 
             $email = $_POST['email'];
             $pass = $_POST['pass'];
 
