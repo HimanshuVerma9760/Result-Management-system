@@ -1,8 +1,8 @@
 <?php
 session_start();
-$conn = mysqli_connect("localhost:3000", "root", "", "dit");
+$conn = new mysqli("localhost", "root", "", "dit");
 if (!$conn) {
-    echo "error : " . mysqli_connect_error($conn);
+    die("ERROR: " . $conn->connect_error);
 } else {
 
     if (isset($_POST['email'])) {

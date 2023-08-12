@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost:3000", "root", "", "dit");
+$conn = mysqli_connect("localhost", "root", "", "dit");
 if (!$conn) {
     echo "error : " . mysqli_connect_error($conn);
 } else {

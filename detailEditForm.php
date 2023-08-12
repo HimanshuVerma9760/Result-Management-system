@@ -68,6 +68,10 @@
                                 <input type="text" name="branch" class="form-control form-control-lg" />
                             </div>
                             <div class="form-outline mb-4">
+                                <label class="form-label" for="form3Example97">old Email ID</label>
+                                <input type="email" required name="oldEmail" class="form-control form-control-lg" />
+                            </div>
+                            <div class="form-outline mb-4">
                                 <label class="form-label" for="form3Example97">Email ID</label>
                                 <input type="email" required name="email" class="form-control form-control-lg" />
                             </div>

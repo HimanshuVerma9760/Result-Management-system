@@ -29,13 +29,13 @@
                     <div class="row">
                       <div class="col-md-6 mb-4">
                         <div class="form-outline">
-                          <input type="text" name="firstname" class="form-control form-control-lg" />
+                          <input required type="text" name="firstname" class="form-control form-control-lg" />
                           <label class="form-label" for="form3Example1m">First name</label>
                         </div>
                       </div>
                       <div class="col-md-6 mb-4">
                         <div class="form-outline">
-                          <input type="text" name="lastname" class="form-control form-control-lg" />
+                          <input required type="text" name="lastname" class="form-control form-control-lg" />
                           <label class="form-label" for="form3Example1n">Last name</label>
                         </div>
                       </div>
@@ -44,13 +44,13 @@
                     <div class="row">
                       <div class="col-md-6 mb-4">
                         <div class="form-outline">
-                          <input type="text" name="mothername" class="form-control form-control-lg" />
+                          <input required type="text" name="mothername" class="form-control form-control-lg" />
                           <label class="form-label" for="form3Example1m1">Mother's name</label>
                         </div>
                       </div>
                       <div class="col-md-6 mb-4">
                         <div class="form-outline">
-                          <input type="text" name="fathername" class="form-control form-control-lg" />
+                          <input required type="text" name="fathername" class="form-control form-control-lg" />
                           <label class="form-label" for="form3Example1n1">Father's name</label>
                         </div>
                       </div>
@@ -60,24 +60,24 @@
 
               <div class="form-outline mb-4">
                 <label class="form-label" for="form3Example90">Pincode</label>
-                <input type="text" name="pincode" class="form-control form-control-lg" />
+                <input required type="number" name="pincode" class="form-control form-control-lg" />
               </div>
 
               <div class="form-outline mb-4">
                 <label class="form-label" for="form3Example99">Branch</label>
-                <input type="text" name="branch" class="form-control form-control-lg" />
+                <input required type="text" name="branch" class="form-control form-control-lg" />
               </div>
               <div class="form-outline mb-4">
                 <label class="form-label" for="form3Example99">Sap Id</label>
-                <input type="number" name="sap" class="form-control form-control-lg" />
+                <input required type="number" name="sap" class="form-control form-control-lg" />
               </div>
               <div class="form-outline mb-4">
                 <label class="form-label" for="form3Example97">Email ID</label>
-                <input type="email" required name="email" class="form-control form-control-lg" />
+                <input required type="email" required name="email" class="form-control form-control-lg" />
               </div>
               <div class="form-outline mb-4">
                 <label class="form-label" for="form3Example97">Password</label>
-                <input type="password" name="password" class="form-control form-control-lg" />
+                <input required type="password" name="password" class="form-control form-control-lg" />
               </div>
 
               <div class="d-flex justify-content-end pt-3">

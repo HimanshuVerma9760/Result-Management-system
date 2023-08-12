@@ -1,0 +1,64 @@
+<style>
+	.search{
+		display: flex;
+		justify-content: space-between;
+	}
+  .home{
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+<div
+  class="container-fluid"
+  style="height: 10px; background-color: #303f9f"
+></div>
+<div class="container-fluid p-3">
+  <div class="row">
+    <div class="col-md-3 text-success home">
+      <h3>DIT</h3>
+  <a class="navbar-brand" href="./index.php"><i class="fas fa-home"></i></a>
+  <a href="logout.php" class="btn btn-primary text-white">Log out</a
+    >
+    </div>
+    <div class="col-md-6">
+      <form class="form-inline my-2 my-lg-0">
+        <div class="search">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-primary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-3">
+      <a href="checkResult.php" class="btn btn-primary"
+        >Result</a
+      >
+      <a href="addResult.php" class="btn btn-primary">Add Result</a
+      >
+      <a href="editDetails.php" class="btn btn-primary text-white">Edit-Details</a
+      >
+     
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </div>
+</nav>

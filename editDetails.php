@@ -1,3 +1,6 @@
+<?php
+include "navbar.html";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,12 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edit Details</title>
     <style>
-        body {
-            background-color: #cccccc;
-            background-size: cover;
-            background-position: center;
-            height: 500px;
-            background-image: radial-gradient(rgb(247, 51, 51), rgb(81, 119, 247));
+         body {
+            background-color: #f0f1f2;
         }
 
         .center {
@@ -24,6 +23,8 @@
             margin-right: auto;
             width: 30%;
             margin-top: 5%;
+            border: 1px solid black;
+            box-shadow: 10px 5px 5px red;
         }
     </style>
 </head>
